@@ -1,0 +1,706 @@
+# Frontend Directory Structure
+
+This file lists the full directory and file structure under the `frontend` folder.
+
+```text
+.dart_tool
+.dart_tool\dartpad
+  .dart_tool\dartpad\web_plugin_registrant.dart
+.dart_tool\flutter_build
+.dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\.filecache
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\app.dill
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\dart_build.d
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\dart_build.stamp
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\dart_build_result.json
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\debug_bundle_windows-x64_assets.stamp
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\flutter_assets.d
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\gen_dart_plugin_registrant.stamp
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\gen_localizations.stamp
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\install_code_assets.d
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\install_code_assets.stamp
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\kernel_snapshot_program.d
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\kernel_snapshot_program.stamp
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\native_assets.json
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\outputs.json
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\unpack_windows.stamp
+  .dart_tool\flutter_build\daa1b3bcb1a9ab352dc917ce424fdc47\windows_engine_sources.d
+  .dart_tool\flutter_build\dart_plugin_registrant.dart
+.dart_tool\hooks_runner
+.dart_tool\hooks_runner\objective_c
+.dart_tool\hooks_runner\objective_c\337ce265dc
+  .dart_tool\hooks_runner\objective_c\337ce265dc\.lock
+  .dart_tool\hooks_runner\objective_c\337ce265dc\dependencies.dependencies_hash_file.json
+  .dart_tool\hooks_runner\objective_c\337ce265dc\hook.dependencies_hash_file.json
+  .dart_tool\hooks_runner\objective_c\337ce265dc\hook.dill
+  .dart_tool\hooks_runner\objective_c\337ce265dc\hook.dill.d
+  .dart_tool\hooks_runner\objective_c\337ce265dc\input.json
+.dart_tool\hooks_runner\objective_c\337ce265dc\out
+  .dart_tool\hooks_runner\objective_c\337ce265dc\output.json
+  .dart_tool\hooks_runner\objective_c\337ce265dc\stderr.txt
+  .dart_tool\hooks_runner\objective_c\337ce265dc\stdout.txt
+.dart_tool\hooks_runner\objective_c\63dc6ceb2b
+  .dart_tool\hooks_runner\objective_c\63dc6ceb2b\.lock
+  .dart_tool\hooks_runner\objective_c\63dc6ceb2b\dependencies.dependencies_hash_file.json
+  .dart_tool\hooks_runner\objective_c\63dc6ceb2b\hook.dependencies_hash_file.json
+  .dart_tool\hooks_runner\objective_c\63dc6ceb2b\hook.dill
+  .dart_tool\hooks_runner\objective_c\63dc6ceb2b\hook.dill.d
+  .dart_tool\hooks_runner\objective_c\63dc6ceb2b\input.json
+.dart_tool\hooks_runner\objective_c\63dc6ceb2b\out
+  .dart_tool\hooks_runner\objective_c\63dc6ceb2b\output.json
+  .dart_tool\hooks_runner\objective_c\63dc6ceb2b\stderr.txt
+  .dart_tool\hooks_runner\objective_c\63dc6ceb2b\stdout.txt
+.dart_tool\hooks_runner\shared
+.dart_tool\hooks_runner\shared\objective_c
+  .dart_tool\hooks_runner\shared\objective_c\.lock
+.dart_tool\hooks_runner\shared\objective_c\build
+.dart_tool\hooks_runner\shared\objective_c\build\337ce265dc
+.dart_tool\hooks_runner\shared\objective_c\build\63dc6ceb2b
+  .dart_tool\package_config.json
+  .dart_tool\package_graph.json
+  .dart_tool\version
+  .flutter-plugins-dependencies
+  .gitignore
+.idea
+.idea\libraries
+  .idea\libraries\Dart_SDK.xml
+  .idea\libraries\KotlinJavaRuntime.xml
+  .idea\modules.xml
+.idea\runConfigurations
+  .idea\runConfigurations\main_dart.xml
+  .idea\workspace.xml
+  .metadata
+  ai_model_frontend.iml
+  analysis_options.yaml
+android
+  android\.gitignore
+  android\ai_model_frontend_android.iml
+android\app
+  android\app\build.gradle.kts
+android\app\src
+android\app\src\debug
+  android\app\src\debug\AndroidManifest.xml
+android\app\src\main
+  android\app\src\main\AndroidManifest.xml
+android\app\src\main\java
+android\app\src\main\java\io
+android\app\src\main\java\io\flutter
+android\app\src\main\java\io\flutter\plugins
+  android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+android\app\src\main\kotlin
+android\app\src\main\kotlin\com
+android\app\src\main\kotlin\com\example
+android\app\src\main\kotlin\com\example\ai_model_frontend
+  android\app\src\main\kotlin\com\example\ai_model_frontend\MainActivity.kt
+android\app\src\main\res
+android\app\src\main\res\drawable
+  android\app\src\main\res\drawable\launch_background.xml
+android\app\src\main\res\drawable-v21
+  android\app\src\main\res\drawable-v21\launch_background.xml
+android\app\src\main\res\mipmap-hdpi
+  android\app\src\main\res\mipmap-hdpi\ic_launcher.png
+android\app\src\main\res\mipmap-mdpi
+  android\app\src\main\res\mipmap-mdpi\ic_launcher.png
+android\app\src\main\res\mipmap-xhdpi
+  android\app\src\main\res\mipmap-xhdpi\ic_launcher.png
+android\app\src\main\res\mipmap-xxhdpi
+  android\app\src\main\res\mipmap-xxhdpi\ic_launcher.png
+android\app\src\main\res\mipmap-xxxhdpi
+  android\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png
+android\app\src\main\res\values
+  android\app\src\main\res\values\styles.xml
+android\app\src\main\res\values-night
+  android\app\src\main\res\values-night\styles.xml
+android\app\src\profile
+  android\app\src\profile\AndroidManifest.xml
+  android\build.gradle.kts
+android\gradle
+  android\gradle.properties
+android\gradle\wrapper
+  android\gradle\wrapper\gradle-wrapper.jar
+  android\gradle\wrapper\gradle-wrapper.properties
+  android\gradlew
+  android\gradlew.bat
+  android\local.properties
+  android\settings.gradle.kts
+assets
+assets\icon
+  assets\icon\bot_icon.png
+build
+  build\.last_build_id
+  build\0ea6338a9744699c4765127c07d5f7ae.cache.dill.track.dill
+build\e835d14bb718200eeed9151a3ed77cbf
+  build\e835d14bb718200eeed9151a3ed77cbf\_composite.stamp
+  build\e835d14bb718200eeed9151a3ed77cbf\gen_dart_plugin_registrant.stamp
+  build\e835d14bb718200eeed9151a3ed77cbf\gen_localizations.stamp
+build\flutter_assets
+  build\flutter_assets\AssetManifest.bin
+build\flutter_assets\assets
+build\flutter_assets\assets\icon
+  build\flutter_assets\assets\icon\bot_icon.png
+  build\flutter_assets\FontManifest.json
+build\flutter_assets\fonts
+  build\flutter_assets\fonts\MaterialIcons-Regular.otf
+  build\flutter_assets\kernel_blob.bin
+  build\flutter_assets\NativeAssetsManifest.json
+  build\flutter_assets\NOTICES.Z
+build\flutter_assets\packages
+build\flutter_assets\packages\cupertino_icons
+build\flutter_assets\packages\cupertino_icons\assets
+  build\flutter_assets\packages\cupertino_icons\assets\CupertinoIcons.ttf
+build\flutter_assets\shaders
+  build\flutter_assets\shaders\ink_sparkle.frag
+  build\flutter_assets\shaders\stretch_effect.frag
+build\native_assets
+build\native_assets\windows
+build\windows
+build\windows\x64
+  build\windows\x64\ai_model_frontend.slnx
+build\windows\x64\ALL_BUILD.dir
+build\windows\x64\ALL_BUILD.dir\Debug
+build\windows\x64\ALL_BUILD.dir\Profile
+build\windows\x64\ALL_BUILD.dir\Release
+  build\windows\x64\ALL_BUILD.vcxproj
+  build\windows\x64\ALL_BUILD.vcxproj.filters
+  build\windows\x64\cmake_install.cmake
+  build\windows\x64\CMakeCache.txt
+build\windows\x64\CMakeFiles
+build\windows\x64\CMakeFiles\4.2.3-msvc3
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CMakeCCompiler.cmake
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CMakeCXXCompiler.cmake
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CMakeDetermineCompilerABI_C.bin
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CMakeDetermineCompilerABI_CXX.bin
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CMakeRCCompiler.cmake
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CMakeSystem.cmake
+build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\CMakeCCompilerId.c
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\CompilerIdC.exe
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\CompilerIdC.vcxproj
+build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CMakeCCompilerId.obj
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.exe.recipe
+build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog\CL.command.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog\Cl.items.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog\CL.read.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog\CL.write.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog\link.command.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog\link.read.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog\link.secondary.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\Debug\CompilerIdC.tlog\link.write.1.tlog
+build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdC\tmp
+build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\CMakeCXXCompilerId.cpp
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\CompilerIdCXX.exe
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\CompilerIdCXX.vcxproj
+build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CMakeCXXCompilerId.obj
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.exe.recipe
+build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog\CL.command.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog\Cl.items.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog\CL.read.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog\CL.write.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog\link.command.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog\link.read.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog\link.secondary.1.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\Debug\CompilerIdCXX.tlog\link.write.1.tlog
+build\windows\x64\CMakeFiles\4.2.3-msvc3\CompilerIdCXX\tmp
+build\windows\x64\CMakeFiles\4.2.3-msvc3\VCTargetsPath
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\VCTargetsPath.txt
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\VCTargetsPath.vcxproj
+build\windows\x64\CMakeFiles\4.2.3-msvc3\VCTargetsPath\x64
+build\windows\x64\CMakeFiles\4.2.3-msvc3\VCTargetsPath\x64\Debug
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\VCTargetsPath\x64\Debug\VCTargetsPath.recipe
+build\windows\x64\CMakeFiles\4.2.3-msvc3\VCTargetsPath\x64\Debug\VCTargetsPath.tlog
+  build\windows\x64\CMakeFiles\4.2.3-msvc3\VCTargetsPath\x64\Debug\VCTargetsPath.tlog\VCTargetsPath.lastbuildstate
+build\windows\x64\CMakeFiles\4.2.3-msvc3\x64
+build\windows\x64\CMakeFiles\4.2.3-msvc3\x64\Debug
+build\windows\x64\CMakeFiles\5179398ab80343a8c0fcc06f382f6f7d
+  build\windows\x64\CMakeFiles\5179398ab80343a8c0fcc06f382f6f7d\generate.stamp.rule
+  build\windows\x64\CMakeFiles\5179398ab80343a8c0fcc06f382f6f7d\INSTALL_force.rule
+build\windows\x64\CMakeFiles\5775583ceaaadcd18c501c6f3a8f5678
+  build\windows\x64\CMakeFiles\5775583ceaaadcd18c501c6f3a8f5678\flutter_windows.dll.rule
+build\windows\x64\CMakeFiles\692f923e0bd71145497a08488595e6b0
+  build\windows\x64\CMakeFiles\692f923e0bd71145497a08488595e6b0\INSTALL_force.rule
+build\windows\x64\CMakeFiles\8ef9c619d4ee374928d3ac949ee87ae6
+  build\windows\x64\CMakeFiles\8ef9c619d4ee374928d3ac949ee87ae6\flutter_assemble.rule
+  build\windows\x64\CMakeFiles\8ef9c619d4ee374928d3ac949ee87ae6\INSTALL_force.rule
+build\windows\x64\CMakeFiles\b8be0735963be7c84d0cd762dd1d3cbb
+  build\windows\x64\CMakeFiles\b8be0735963be7c84d0cd762dd1d3cbb\INSTALL_force.rule
+  build\windows\x64\CMakeFiles\cmake.check_cache
+  build\windows\x64\CMakeFiles\CMakeConfigureLog.yaml
+build\windows\x64\CMakeFiles\e7fabe657d3006ef874bff6d9fb6de58
+  build\windows\x64\CMakeFiles\e7fabe657d3006ef874bff6d9fb6de58\INSTALL_force.rule
+  build\windows\x64\CMakeFiles\generate.stamp
+  build\windows\x64\CMakeFiles\generate.stamp.depend
+  build\windows\x64\CMakeFiles\generate.stamp.list
+  build\windows\x64\CMakeFiles\InstallScripts.json
+build\windows\x64\CMakeFiles\pkgRedirects
+  build\windows\x64\CMakeFiles\TargetDirectories.txt
+build\windows\x64\flutter
+  build\windows\x64\flutter\cmake_install.cmake
+build\windows\x64\flutter\CMakeFiles
+  build\windows\x64\flutter\CMakeFiles\generate.stamp
+  build\windows\x64\flutter\CMakeFiles\generate.stamp.depend
+build\windows\x64\flutter\Debug
+  build\windows\x64\flutter\Debug\flutter_wrapper_app.lib
+  build\windows\x64\flutter\Debug\flutter_wrapper_app.pdb
+  build\windows\x64\flutter\Debug\flutter_wrapper_plugin.lib
+  build\windows\x64\flutter\Debug\flutter_wrapper_plugin.pdb
+build\windows\x64\flutter\flutter_assemble.dir
+build\windows\x64\flutter\flutter_assemble.dir\Debug
+build\windows\x64\flutter\flutter_assemble.dir\Profile
+build\windows\x64\flutter\flutter_assemble.dir\Release
+  build\windows\x64\flutter\flutter_assemble.vcxproj
+  build\windows\x64\flutter\flutter_assemble.vcxproj.filters
+build\windows\x64\flutter\flutter_wrapper_app.dir
+build\windows\x64\flutter\flutter_wrapper_app.dir\Debug
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\core_implementations.obj
+build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\CL.command.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\Cl.items.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\CL.read.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\CL.write.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\CustomBuild.command.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\CustomBuild.read.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\CustomBuild.write.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\flutter_wrapper_app.lastbuildstate
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\Lib.command.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\Lib-link.read.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_.91096171.tlog\Lib-link.write.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_engine.obj
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_view_controller.obj
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\flutter_wrapper_app.lib.recipe
+  build\windows\x64\flutter\flutter_wrapper_app.dir\Debug\standard_codec.obj
+build\windows\x64\flutter\flutter_wrapper_app.dir\Profile
+build\windows\x64\flutter\flutter_wrapper_app.dir\Release
+  build\windows\x64\flutter\flutter_wrapper_app.vcxproj
+  build\windows\x64\flutter\flutter_wrapper_app.vcxproj.filters
+build\windows\x64\flutter\flutter_wrapper_plugin.dir
+build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\core_implementations.obj
+build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\CL.command.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\Cl.items.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\CL.read.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\CL.write.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\CustomBuild.command.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\CustomBuild.read.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\CustomBuild.write.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\flutter_wrapper_plugin.lastbuildstate
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\Lib.command.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\Lib-link.read.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_.E5C1EC28.tlog\Lib-link.write.1.tlog
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\flutter_wrapper_plugin.lib.recipe
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\plugin_registrar.obj
+  build\windows\x64\flutter\flutter_wrapper_plugin.dir\Debug\standard_codec.obj
+build\windows\x64\flutter\flutter_wrapper_plugin.dir\Profile
+build\windows\x64\flutter\flutter_wrapper_plugin.dir\Release
+  build\windows\x64\flutter\flutter_wrapper_plugin.vcxproj
+  build\windows\x64\flutter\flutter_wrapper_plugin.vcxproj.filters
+build\windows\x64\flutter\INSTALL.dir
+build\windows\x64\flutter\INSTALL.dir\Debug
+build\windows\x64\flutter\INSTALL.dir\Profile
+build\windows\x64\flutter\INSTALL.dir\Release
+  build\windows\x64\flutter\INSTALL.vcxproj
+  build\windows\x64\flutter\INSTALL.vcxproj.filters
+build\windows\x64\flutter\x64
+build\windows\x64\flutter\x64\Debug
+build\windows\x64\flutter\x64\Debug\flutter_assemble
+  build\windows\x64\flutter\x64\Debug\flutter_assemble\flutter_assemble.recipe
+build\windows\x64\flutter\x64\Debug\flutter_assemble\flutter_assemble.tlog
+  build\windows\x64\flutter\x64\Debug\flutter_assemble\flutter_assemble.tlog\CustomBuild.command.1.tlog
+  build\windows\x64\flutter\x64\Debug\flutter_assemble\flutter_assemble.tlog\CustomBuild.read.1.tlog
+  build\windows\x64\flutter\x64\Debug\flutter_assemble\flutter_assemble.tlog\CustomBuild.write.1.tlog
+  build\windows\x64\flutter\x64\Debug\flutter_assemble\flutter_assemble.tlog\flutter_assemble.lastbuildstate
+build\windows\x64\INSTALL.dir
+build\windows\x64\INSTALL.dir\Debug
+build\windows\x64\INSTALL.dir\Profile
+build\windows\x64\INSTALL.dir\Release
+  build\windows\x64\INSTALL.vcxproj
+  build\windows\x64\INSTALL.vcxproj.filters
+  build\windows\x64\install_manifest.txt
+build\windows\x64\plugins
+build\windows\x64\plugins\jni
+build\windows\x64\plugins\jni\ALL_BUILD.dir
+build\windows\x64\plugins\jni\ALL_BUILD.dir\Debug
+build\windows\x64\plugins\jni\ALL_BUILD.dir\Profile
+build\windows\x64\plugins\jni\ALL_BUILD.dir\Release
+  build\windows\x64\plugins\jni\ALL_BUILD.vcxproj
+  build\windows\x64\plugins\jni\ALL_BUILD.vcxproj.filters
+  build\windows\x64\plugins\jni\cmake_install.cmake
+build\windows\x64\plugins\jni\CMakeFiles
+  build\windows\x64\plugins\jni\CMakeFiles\generate.stamp
+  build\windows\x64\plugins\jni\CMakeFiles\generate.stamp.depend
+build\windows\x64\plugins\jni\INSTALL.dir
+build\windows\x64\plugins\jni\INSTALL.dir\Debug
+build\windows\x64\plugins\jni\INSTALL.dir\Profile
+build\windows\x64\plugins\jni\INSTALL.dir\Release
+  build\windows\x64\plugins\jni\INSTALL.vcxproj
+  build\windows\x64\plugins\jni\INSTALL.vcxproj.filters
+  build\windows\x64\plugins\jni\jni.slnx
+build\windows\x64\plugins\jni\shared
+build\windows\x64\plugins\jni\shared\ALL_BUILD.dir
+build\windows\x64\plugins\jni\shared\ALL_BUILD.dir\Debug
+build\windows\x64\plugins\jni\shared\ALL_BUILD.dir\Profile
+build\windows\x64\plugins\jni\shared\ALL_BUILD.dir\Release
+  build\windows\x64\plugins\jni\shared\ALL_BUILD.vcxproj
+  build\windows\x64\plugins\jni\shared\ALL_BUILD.vcxproj.filters
+  build\windows\x64\plugins\jni\shared\cmake_install.cmake
+build\windows\x64\plugins\jni\shared\CMakeFiles
+  build\windows\x64\plugins\jni\shared\CMakeFiles\generate.stamp
+  build\windows\x64\plugins\jni\shared\CMakeFiles\generate.stamp.depend
+build\windows\x64\plugins\jni\shared\INSTALL.dir
+build\windows\x64\plugins\jni\shared\INSTALL.dir\Debug
+build\windows\x64\plugins\jni\shared\INSTALL.dir\Profile
+build\windows\x64\plugins\jni\shared\INSTALL.dir\Release
+  build\windows\x64\plugins\jni\shared\INSTALL.vcxproj
+  build\windows\x64\plugins\jni\shared\INSTALL.vcxproj.filters
+  build\windows\x64\plugins\jni\shared\jni_library.slnx
+build\windows\x64\runner
+build\windows\x64\runner\ai_model_frontend.dir
+build\windows\x64\runner\ai_model_frontend.dir\Debug
+build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\ai_model_frontend.lastbuildstate
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\CL.command.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\Cl.items.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\CL.read.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\CL.write.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\CustomBuild.command.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\CustomBuild.read.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\CustomBuild.write.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\link.command.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\link.read.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\link.secondary.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\link.write.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\rc.command.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\rc.read.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model.6C97C766.tlog\rc.write.1.tlog
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model_frontend.exe.recipe
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\ai_model_frontend.ilk
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\flutter_window.obj
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\generated_plugin_registrant.obj
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\main.obj
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\Runner.res
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\utils.obj
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\vc145.pdb
+  build\windows\x64\runner\ai_model_frontend.dir\Debug\win32_window.obj
+build\windows\x64\runner\ai_model_frontend.dir\Profile
+build\windows\x64\runner\ai_model_frontend.dir\Release
+  build\windows\x64\runner\ai_model_frontend.vcxproj
+  build\windows\x64\runner\ai_model_frontend.vcxproj.filters
+build\windows\x64\runner\ALL_BUILD.dir
+build\windows\x64\runner\ALL_BUILD.dir\Debug
+build\windows\x64\runner\ALL_BUILD.dir\Profile
+build\windows\x64\runner\ALL_BUILD.dir\Release
+  build\windows\x64\runner\ALL_BUILD.vcxproj
+  build\windows\x64\runner\ALL_BUILD.vcxproj.filters
+  build\windows\x64\runner\cmake_install.cmake
+build\windows\x64\runner\CMakeFiles
+  build\windows\x64\runner\CMakeFiles\generate.stamp
+  build\windows\x64\runner\CMakeFiles\generate.stamp.depend
+build\windows\x64\runner\Debug
+  build\windows\x64\runner\Debug\ai_model_frontend.exe
+  build\windows\x64\runner\Debug\ai_model_frontend.pdb
+build\windows\x64\runner\Debug\data
+build\windows\x64\runner\Debug\data\flutter_assets
+  build\windows\x64\runner\Debug\data\flutter_assets\AssetManifest.bin
+build\windows\x64\runner\Debug\data\flutter_assets\assets
+build\windows\x64\runner\Debug\data\flutter_assets\assets\icon
+  build\windows\x64\runner\Debug\data\flutter_assets\assets\icon\bot_icon.png
+  build\windows\x64\runner\Debug\data\flutter_assets\FontManifest.json
+build\windows\x64\runner\Debug\data\flutter_assets\fonts
+  build\windows\x64\runner\Debug\data\flutter_assets\fonts\MaterialIcons-Regular.otf
+  build\windows\x64\runner\Debug\data\flutter_assets\kernel_blob.bin
+  build\windows\x64\runner\Debug\data\flutter_assets\NativeAssetsManifest.json
+  build\windows\x64\runner\Debug\data\flutter_assets\NOTICES.Z
+build\windows\x64\runner\Debug\data\flutter_assets\packages
+build\windows\x64\runner\Debug\data\flutter_assets\packages\cupertino_icons
+build\windows\x64\runner\Debug\data\flutter_assets\packages\cupertino_icons\assets
+  build\windows\x64\runner\Debug\data\flutter_assets\packages\cupertino_icons\assets\CupertinoIcons.ttf
+build\windows\x64\runner\Debug\data\flutter_assets\shaders
+  build\windows\x64\runner\Debug\data\flutter_assets\shaders\ink_sparkle.frag
+  build\windows\x64\runner\Debug\data\flutter_assets\shaders\stretch_effect.frag
+  build\windows\x64\runner\Debug\data\icudtl.dat
+  build\windows\x64\runner\Debug\flutter_windows.dll
+build\windows\x64\runner\INSTALL.dir
+build\windows\x64\runner\INSTALL.dir\Debug
+build\windows\x64\runner\INSTALL.dir\Profile
+build\windows\x64\runner\INSTALL.dir\Release
+  build\windows\x64\runner\INSTALL.vcxproj
+  build\windows\x64\runner\INSTALL.vcxproj.filters
+  build\windows\x64\runner\runner.slnx
+build\windows\x64\x64
+build\windows\x64\x64\Debug
+build\windows\x64\x64\Debug\ALL_BUILD
+  build\windows\x64\x64\Debug\ALL_BUILD\ALL_BUILD.recipe
+build\windows\x64\x64\Debug\ALL_BUILD\ALL_BUILD.tlog
+  build\windows\x64\x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate
+  build\windows\x64\x64\Debug\ALL_BUILD\ALL_BUILD.tlog\CustomBuild.command.1.tlog
+  build\windows\x64\x64\Debug\ALL_BUILD\ALL_BUILD.tlog\CustomBuild.read.1.tlog
+  build\windows\x64\x64\Debug\ALL_BUILD\ALL_BUILD.tlog\CustomBuild.write.1.tlog
+build\windows\x64\x64\Debug\INSTALL
+  build\windows\x64\x64\Debug\INSTALL\INSTALL.recipe
+build\windows\x64\x64\Debug\INSTALL\INSTALL.tlog
+  build\windows\x64\x64\Debug\INSTALL\INSTALL.tlog\CustomBuild.command.1.tlog
+  build\windows\x64\x64\Debug\INSTALL\INSTALL.tlog\CustomBuild.read.1.tlog
+  build\windows\x64\x64\Debug\INSTALL\INSTALL.tlog\CustomBuild.write.1.tlog
+  build\windows\x64\x64\Debug\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate
+build\windows\x64\x64\Debug\ZERO_CHECK
+  build\windows\x64\x64\Debug\ZERO_CHECK\ZERO_CHECK.recipe
+build\windows\x64\x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog
+  build\windows\x64\x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\CustomBuild.command.1.tlog
+  build\windows\x64\x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\CustomBuild.read.1.tlog
+  build\windows\x64\x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\CustomBuild.write.1.tlog
+  build\windows\x64\x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate
+build\windows\x64\ZERO_CHECK.dir
+build\windows\x64\ZERO_CHECK.dir\Debug
+build\windows\x64\ZERO_CHECK.dir\Profile
+build\windows\x64\ZERO_CHECK.dir\Release
+  build\windows\x64\ZERO_CHECK.vcxproj
+  build\windows\x64\ZERO_CHECK.vcxproj.filters
+  ICON_SETUP.md
+ios
+  ios\.gitignore
+ios\Flutter
+  ios\Flutter\AppFrameworkInfo.plist
+  ios\Flutter\Debug.xcconfig
+ios\Flutter\ephemeral
+  ios\Flutter\ephemeral\flutter_lldb_helper.py
+  ios\Flutter\ephemeral\flutter_lldbinit
+  ios\Flutter\ephemeral\flutter_native_integration.env
+ios\Flutter\ephemeral\Packages
+ios\Flutter\ephemeral\Packages\.packages
+ios\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage
+  ios\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage\Package.swift
+ios\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage\Sources
+ios\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage\Sources\FlutterGeneratedPluginSwiftPackage
+  ios\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage\Sources\FlutterGeneratedPluginSwiftPackage\FlutterGeneratedPluginSwiftPackage.swift
+  ios\Flutter\flutter_export_environment.sh
+  ios\Flutter\Generated.xcconfig
+  ios\Flutter\Release.xcconfig
+ios\Runner
+ios\Runner.xcodeproj
+  ios\Runner.xcodeproj\project.pbxproj
+ios\Runner.xcodeproj\project.xcworkspace
+  ios\Runner.xcodeproj\project.xcworkspace\contents.xcworkspacedata
+ios\Runner.xcodeproj\project.xcworkspace\xcshareddata
+  ios\Runner.xcodeproj\project.xcworkspace\xcshareddata\IDEWorkspaceChecks.plist
+  ios\Runner.xcodeproj\project.xcworkspace\xcshareddata\WorkspaceSettings.xcsettings
+ios\Runner.xcodeproj\xcshareddata
+ios\Runner.xcodeproj\xcshareddata\xcschemes
+  ios\Runner.xcodeproj\xcshareddata\xcschemes\Runner.xcscheme
+ios\Runner.xcworkspace
+  ios\Runner.xcworkspace\contents.xcworkspacedata
+ios\Runner.xcworkspace\xcshareddata
+  ios\Runner.xcworkspace\xcshareddata\IDEWorkspaceChecks.plist
+  ios\Runner.xcworkspace\xcshareddata\WorkspaceSettings.xcsettings
+  ios\Runner\AppDelegate.swift
+ios\Runner\Assets.xcassets
+ios\Runner\Assets.xcassets\AppIcon.appiconset
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-1024x1024@1x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@1x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@2x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@3x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@1x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@2x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@3x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@1x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@2x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@3x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-50x50@1x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-50x50@2x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-57x57@1x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-57x57@2x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@2x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@3x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-72x72@1x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-72x72@2x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@1x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@2x.png
+  ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5@2x.png
+ios\Runner\Assets.xcassets\LaunchImage.imageset
+  ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json
+  ios\Runner\Assets.xcassets\LaunchImage.imageset\LaunchImage.png
+  ios\Runner\Assets.xcassets\LaunchImage.imageset\LaunchImage@2x.png
+  ios\Runner\Assets.xcassets\LaunchImage.imageset\LaunchImage@3x.png
+  ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md
+ios\Runner\Base.lproj
+  ios\Runner\Base.lproj\LaunchScreen.storyboard
+  ios\Runner\Base.lproj\Main.storyboard
+  ios\Runner\GeneratedPluginRegistrant.h
+  ios\Runner\GeneratedPluginRegistrant.m
+  ios\Runner\Info.plist
+  ios\Runner\Runner-Bridging-Header.h
+  ios\Runner\SceneDelegate.swift
+ios\RunnerTests
+  ios\RunnerTests\RunnerTests.swift
+lib
+  lib\main.dart
+linux
+  linux\.gitignore
+  linux\CMakeLists.txt
+linux\flutter
+  linux\flutter\CMakeLists.txt
+linux\flutter\ephemeral
+linux\flutter\ephemeral\.plugin_symlinks
+linux\flutter\ephemeral\.plugin_symlinks\jni
+linux\flutter\ephemeral\.plugin_symlinks\path_provider_linux
+  linux\flutter\generated_plugin_registrant.cc
+  linux\flutter\generated_plugin_registrant.h
+  linux\flutter\generated_plugins.cmake
+linux\runner
+  linux\runner\CMakeLists.txt
+  linux\runner\main.cc
+  linux\runner\my_application.cc
+  linux\runner\my_application.h
+macos
+  macos\.gitignore
+macos\Flutter
+macos\Flutter\ephemeral
+  macos\Flutter\ephemeral\flutter_export_environment.sh
+  macos\Flutter\ephemeral\flutter_native_integration.env
+  macos\Flutter\ephemeral\Flutter-Generated.xcconfig
+macos\Flutter\ephemeral\Packages
+macos\Flutter\ephemeral\Packages\.packages
+macos\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage
+  macos\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage\Package.swift
+macos\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage\Sources
+macos\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage\Sources\FlutterGeneratedPluginSwiftPackage
+  macos\Flutter\ephemeral\Packages\FlutterGeneratedPluginSwiftPackage\Sources\FlutterGeneratedPluginSwiftPackage\FlutterGeneratedPluginSwiftPackage.swift
+  macos\Flutter\Flutter-Debug.xcconfig
+  macos\Flutter\Flutter-Release.xcconfig
+  macos\Flutter\GeneratedPluginRegistrant.swift
+macos\Runner
+macos\Runner.xcodeproj
+  macos\Runner.xcodeproj\project.pbxproj
+macos\Runner.xcodeproj\project.xcworkspace
+macos\Runner.xcodeproj\project.xcworkspace\xcshareddata
+  macos\Runner.xcodeproj\project.xcworkspace\xcshareddata\IDEWorkspaceChecks.plist
+macos\Runner.xcodeproj\xcshareddata
+macos\Runner.xcodeproj\xcshareddata\xcschemes
+  macos\Runner.xcodeproj\xcshareddata\xcschemes\Runner.xcscheme
+macos\Runner.xcworkspace
+  macos\Runner.xcworkspace\contents.xcworkspacedata
+macos\Runner.xcworkspace\xcshareddata
+  macos\Runner.xcworkspace\xcshareddata\IDEWorkspaceChecks.plist
+  macos\Runner\AppDelegate.swift
+macos\Runner\Assets.xcassets
+macos\Runner\Assets.xcassets\AppIcon.appiconset
+  macos\Runner\Assets.xcassets\AppIcon.appiconset\app_icon_1024.png
+  macos\Runner\Assets.xcassets\AppIcon.appiconset\app_icon_128.png
+  macos\Runner\Assets.xcassets\AppIcon.appiconset\app_icon_16.png
+  macos\Runner\Assets.xcassets\AppIcon.appiconset\app_icon_256.png
+  macos\Runner\Assets.xcassets\AppIcon.appiconset\app_icon_32.png
+  macos\Runner\Assets.xcassets\AppIcon.appiconset\app_icon_512.png
+  macos\Runner\Assets.xcassets\AppIcon.appiconset\app_icon_64.png
+  macos\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json
+macos\Runner\Base.lproj
+  macos\Runner\Base.lproj\MainMenu.xib
+macos\Runner\Configs
+  macos\Runner\Configs\AppInfo.xcconfig
+  macos\Runner\Configs\Debug.xcconfig
+  macos\Runner\Configs\Release.xcconfig
+  macos\Runner\Configs\Warnings.xcconfig
+  macos\Runner\DebugProfile.entitlements
+  macos\Runner\Info.plist
+  macos\Runner\MainFlutterWindow.swift
+  macos\Runner\Release.entitlements
+macos\RunnerTests
+  macos\RunnerTests\RunnerTests.swift
+  pubspec.lock
+  pubspec.yaml
+  README.md
+test
+  test\widget_test.dart
+web
+  web\favicon.png
+web\icons
+  web\icons\Icon-192.png
+  web\icons\Icon-512.png
+  web\icons\Icon-maskable-192.png
+  web\icons\Icon-maskable-512.png
+  web\index.html
+  web\manifest.json
+windows
+  windows\.gitignore
+  windows\CMakeLists.txt
+windows\flutter
+  windows\flutter\CMakeLists.txt
+windows\flutter\ephemeral
+windows\flutter\ephemeral\.plugin_symlinks
+windows\flutter\ephemeral\.plugin_symlinks\jni
+windows\flutter\ephemeral\.plugin_symlinks\path_provider_windows
+windows\flutter\ephemeral\cpp_client_wrapper
+  windows\flutter\ephemeral\cpp_client_wrapper\binary_messenger_impl.h
+  windows\flutter\ephemeral\cpp_client_wrapper\byte_buffer_streams.h
+  windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc
+  windows\flutter\ephemeral\cpp_client_wrapper\engine_method_result.cc
+  windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc
+  windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc
+windows\flutter\ephemeral\cpp_client_wrapper\include
+windows\flutter\ephemeral\cpp_client_wrapper\include\flutter
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\basic_message_channel.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\binary_messenger.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\byte_streams.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\dart_project.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\encodable_value.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\engine_method_result.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\event_channel.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\event_sink.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\event_stream_handler.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\event_stream_handler_functions.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\flutter_engine.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\flutter_view.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\flutter_view_controller.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\message_codec.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\method_call.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\method_channel.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\method_codec.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\method_result.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\method_result_functions.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\plugin_registrar.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\plugin_registrar_windows.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\plugin_registry.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\standard_codec_serializer.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\standard_message_codec.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\standard_method_codec.h
+  windows\flutter\ephemeral\cpp_client_wrapper\include\flutter\texture_registrar.h
+  windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc
+  windows\flutter\ephemeral\cpp_client_wrapper\readme
+  windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc
+  windows\flutter\ephemeral\cpp_client_wrapper\texture_registrar_impl.h
+  windows\flutter\ephemeral\flutter_export.h
+  windows\flutter\ephemeral\flutter_messenger.h
+  windows\flutter\ephemeral\flutter_plugin_registrar.h
+  windows\flutter\ephemeral\flutter_texture_registrar.h
+  windows\flutter\ephemeral\flutter_windows.dll
+  windows\flutter\ephemeral\flutter_windows.dll.exp
+  windows\flutter\ephemeral\flutter_windows.dll.lib
+  windows\flutter\ephemeral\flutter_windows.dll.pdb
+  windows\flutter\ephemeral\flutter_windows.h
+  windows\flutter\ephemeral\generated_config.cmake
+  windows\flutter\ephemeral\icudtl.dat
+  windows\flutter\generated_plugin_registrant.cc
+  windows\flutter\generated_plugin_registrant.h
+  windows\flutter\generated_plugins.cmake
+windows\runner
+  windows\runner\CMakeLists.txt
+  windows\runner\flutter_window.cpp
+  windows\runner\flutter_window.h
+  windows\runner\main.cpp
+  windows\runner\resource.h
+windows\runner\resources
+  windows\runner\resources\app_icon.ico
+  windows\runner\runner.exe.manifest
+  windows\runner\Runner.rc
+  windows\runner\utils.cpp
+  windows\runner\utils.h
+  windows\runner\win32_window.cpp
+  windows\runner\win32_window.h
+```
+
